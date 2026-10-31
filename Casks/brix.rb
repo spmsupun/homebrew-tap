@@ -1,6 +1,6 @@
 cask "brix" do
-  version "0.1.0-beta.10"
-  sha256 "d9384512504d1c98b932b335c442be41ac18e9f12bde521000ff1b6532f4986b"
+  version "0.1.0-beta.11"
+  sha256 "40eacd63d4cc9de60379aab218557f89faf3f2793ebd941264744b50f50f71f0"
 
   url "https://github.com/spmsupun/brix/releases/download/v#{version}/Brix-#{version}-macOS.zip"
   name "Brix"
