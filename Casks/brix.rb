@@ -1,6 +1,6 @@
 cask "brix" do
-  version "0.1.0-beta.12"
-  sha256 "2bb5fea85c90eb1319e1a8ebe71c2aa65860f632567d39042feb31b4ea42d9d3"
+  version "0.1.0-beta.13"
+  sha256 "e1fe67f7dd36a35ff8da86bb55ec86eb26da406c7aecf7b4af9dc9174db50250"
 
   url "https://github.com/spmsupun/brix/releases/download/v#{version}/Brix-#{version}-macOS.zip"
   name "Brix"
@@ -13,6 +13,7 @@ cask "brix" do
     strategy :git
   end
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "Brix.app"
